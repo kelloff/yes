@@ -73,12 +73,5 @@ class Pen(models.Model):
         verbose_name = 'Ручка'
         verbose_name_plural = 'Ручки'
         
-    def save(
-        self,
-        *args,
-        **kwargs
-        ):
-        # self.full_clean()
-        # self.activation_code = utils.generate_model_name()
-        return super().save(*args, **kwargs)
+    
     
